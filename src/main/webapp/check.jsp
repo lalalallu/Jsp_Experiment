@@ -11,7 +11,13 @@
     <title>check</title>
 </head>
 <body>
-<div><%=(String)session.getAttribute("username")%></div> <br>
-<div><%=(String)session.getAttribute("password")%></div> <br>
+<div><%="用户名："+(String)session.getAttribute("username")%></div>
+<div><%="密  码："+(String)session.getAttribute("password")%></div>
+<div><%="性  别："+(String)session.getAttribute("sex")%></div>
+<div><%="生  日："+(String)session.getAttribute("birthday")%></div>
+<div><%="邮  箱："+(String)session.getAttribute("mail")%></div>
+<div><%="地  址："+(String)session.getAttribute("city")%></div>
+<div><%="爱  好："+(String)session.getAttribute("strLikes")%></div>
+<div><%="个  签："+(String)session.getAttribute("intro")%></div>
 </body>
 </html>
