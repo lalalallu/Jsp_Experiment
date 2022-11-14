@@ -19,5 +19,8 @@
 <div><%="地  址："+(String)session.getAttribute("city")%></div>
 <div><%="爱  好："+(String)session.getAttribute("strLikes")%></div>
 <div><%="个  签："+(String)session.getAttribute("intro")%></div>
+<%
+    response.setHeader("Refresh", "5;url=login.jsp");
+%>
 </body>
 </html>
